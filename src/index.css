@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #e4e4e4;
+}
+
+.bubble-effect {
+  box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.1), 0px 10px 24px rgba(0, 0, 0, 0.2);
+  transition: transform 0.2s ease;
+}
+
+.bubble-effect:hover {
+  transform: scale(1.05);
+}
